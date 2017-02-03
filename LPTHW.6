@@ -1,0 +1,34 @@
+x = "There are %d types of people." % 10
+
+# Assigns There are 10 types of people. to x by using the %
+# and placing a 10 outside and at the end with another %. """
+
+binary = "binary"
+# Assigns "binary" to binary variable.
+do_not = "don't"
+# Assigns "don't" to do_not.
+y = "Those who know %s and those who %s." % (binary, do_not)
+#Assigns the above binary and do_not variables to the string
+# above with the two %s signs, consecutively.
+
+print x # prints what is assigned to x.
+print y # prints what is assigned to y.
+
+print "I said: %r." % x
+# Puts what is assigned to x into the string where the %r variable is placed.
+print "I also said: '%s'." % y
+# Puts what is assigned to y into the string where the %s variable is placed.
+
+hilarious = False #Assigns a boolean False to the 'hilarious' variable.
+joke_evaluation = "Isn't that joke so funny?! %r"
+# Places the last boolean value 'False' into the statement.
+
+print joke_evaluation % hilarious
+# Evalutes joke_evaluation and the hilarious variables and evaluates an answer.
+
+w = "This is the left side of..."
+# Above string assigned to w.
+e = "a string with a right side."
+# Above string assigned to e.
+print w + e
+# Prints above variables and concatenates them in order.
