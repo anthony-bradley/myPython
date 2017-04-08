@@ -1,6 +1,6 @@
 {Must utilize Terminal for most of the following programs}
 ___________________________________________________________
-[ONE - 1]
+[ELEVEN - 11]
 ___________________________________________________________
 print "How old are you?",
 age = raw_input()
@@ -12,7 +12,7 @@ weight = raw_input()
 print "So, you're %r old, %r tall and %r heavy." % (
 age, height, weight)
 ___________________________________________________________
-[TWO - 2]
+[TWELVE - 12]
 ___________________________________________________________
 age = raw_input("How old are you? ")
 height = raw_input("How tall are you? ")
@@ -20,7 +20,7 @@ weight = raw_input("How much do you weigh? ")
 
 print "So you're %r old, %r tall and %r heavy." % (age, height, weight)
 ___________________________________________________________
-[THREE - 3]
+[THIRTEEN - 13]
 ___________________________________________________________
 from sys import argv
 
@@ -31,7 +31,7 @@ print "Your variable is:", first
 print "Your second variable is:", second
 print "Your third variable is:", third
 ___________________________________________________________
-[FOUR - 4]
+[FOURTEEN - 14]
 ___________________________________________________________
 from sys import argv
 
@@ -56,7 +56,7 @@ You live in %r. Not sure where that is.
 And you have a %r computer. Very Nice.
 """ % (likes, lives, computer)
 ___________________________________________________________
-[FIVE - 5]
+[FIFTEEN - 15]
 ___________________________________________________________
 from sys import argv
 
@@ -66,6 +66,7 @@ txt = open(filename)
 
 print "Here's your file %r:" % filename
 print txt.read()
+txt.close()
 
 print "Type the filename again:"
 file_again = raw_input("> ")
@@ -73,3 +74,4 @@ file_again = raw_input("> ")
 txt_again = open(file_again)
 
 print txt_again.read()
+txt_again.close()
