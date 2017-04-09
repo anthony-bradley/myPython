@@ -30,6 +30,10 @@ print "The script is called:", script
 print "Your variable is:", first
 print "Your second variable is:", second
 print "Your third variable is:", third
+
+print "\nCreate a new variable: "
+argv = raw_input()
+print "Your new variable is: " + argv
 ___________________________________________________________
 [FOURTEEN - 14]
 ___________________________________________________________
